@@ -1,0 +1,37 @@
+Bank
+{
+	int GetintrestRate()
+	{
+		returnn  9;
+	}
+}
+
+Bob
+{
+	int GetintrestRate()
+	{
+		returnn  5;
+	}
+}
+Sbi
+{
+	int GetintrestRate()
+	{
+		returnn  4;
+	}
+}
+
+class Q4
+{
+	public static void main(String args[])
+	{
+		Bob b = new Bob();
+		Bank B = new Bank();
+		Sbi s = new Sbi();
+
+		System.out.println("Bank GetintrestRate : "+ Bank.GetintrestRate());
+		System.out.println("Bob GetintrestRate : "+ Bob.GetintrestRate());
+		System.out.println("Sbi GetintrestRate : "+ Sbi.GetintrestRate());
+
+	}
+}
